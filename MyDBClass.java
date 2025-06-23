@@ -17,7 +17,7 @@ public class MyDBClass {
     public Connection getConnection() {
         String url = "jdbc:mysql://localhost:3306/test?useSSL=false&serverTimezone=UTC";
         try {
-            connection = DriverManager.getConnection(url, "root", "8265");
+            connection = DriverManager.getConnection(url, "root", "1234");
         } catch (SQLException e) {
             e.printStackTrace();
         }
